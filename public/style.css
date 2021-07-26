@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+form button {
+  background-color: white;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: navy;
+  color: white;
+}
+
+.single-item {
+  display: flex;
+}
+
+.single-item div {
+  margin: 1rem;
+}
+
+.single-item form {
+  margin: 1rem;
+  padding-top: 12rem;
+}
+
+.add-to-cart {
+  padding: 0.5rem 2rem;
+}
+
+.all-suits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.eachSuit {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  padding: 2rem;
+}
+
+li {
+  list-style: none;
+  background-color: lightgrey;
+  margin: 2rem;
+  width: 50%;
+}
+
+.homepage-text {
+  margin: 1rem 10rem;
+}
